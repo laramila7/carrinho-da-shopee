@@ -22,4 +22,11 @@ async function calculateTotal(userCart){
 return userCart.reduce(total, item) => total + item.subtotal(), 0);
 }
 
+export {
+    addItem,
+    calculateTotal,
+    deleItem,
+}
+  
+
 
