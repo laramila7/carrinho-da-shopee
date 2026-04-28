@@ -9,7 +9,10 @@ async function addItem(userCart) {
 
 //deletar item do carrinho
 async function deleteItem(userCart, name){
+  const index = userCart.findIndex((item) =>) item.name === name);
 
+  if(index
+  
 }
 
 //remover um item do carrinho
